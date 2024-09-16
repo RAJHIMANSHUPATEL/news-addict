@@ -2,7 +2,7 @@ import {useEffect, createContext, useContext, useReducer } from "react";
 import {reducer} from './reducer'
 
 const AppContext = createContext();
-let API = "http://hn.algolia.com/api/v1/search?";
+let API = "https://hn.algolia.com/api/v1/search?";
 
 const initialState = {
     isLoading: true,
